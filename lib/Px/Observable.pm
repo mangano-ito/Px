@@ -3,6 +3,8 @@ package Px::Observable;
 use strict;
 use warnings;
 
+use Px::Observable::Impl::Operators;
+
 # return: Observable
 sub new {
     my (
