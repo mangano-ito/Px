@@ -149,6 +149,18 @@ DISTRIBUTIONS
       Text::ParseWords 0
       perl 5.006001
       version 0.87
+  Module-Functions-2.1.3
+    pathname: T/TO/TOKUHIROM/Module-Functions-2.1.3.tar.gz
+    provides:
+      Module::Functions v2.1.3
+    requirements:
+      CPAN::Meta 0
+      CPAN::Meta::Prereqs 0
+      Exporter 0
+      Module::Build 0.38
+      Sub::Identify 0.04
+      parent 0
+      perl 5.008005
   Module-Implementation-0.09
     pathname: D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
     provides:
@@ -233,6 +245,13 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5
+  Sub-Identify-0.14
+    pathname: R/RG/RGARCIA/Sub-Identify-0.14.tar.gz
+    provides:
+      Sub::Identify 0.14
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   Sub-Info-0.002
     pathname: E/EX/EXODIST/Sub-Info-0.002.tar.gz
     provides:

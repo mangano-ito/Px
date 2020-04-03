@@ -1,3 +1,5 @@
+requires 'Module::Functions';
+
 on 'develop' => sub {
     requires 'Data::Printer';
 };
