@@ -1,4 +1,4 @@
-# Px
+# <img src="./docs/assets/px.png" alt="Px" width="7%" />
 
 An **experimental**, **incomplete** and **non-official** Rx implementation for Perl.
 
