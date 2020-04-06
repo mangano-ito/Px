@@ -9,9 +9,14 @@ our @EXPORT = get_public_functions;
 our @EXPORT_OK = get_public_functions;
 
 use Px::Observable::CallableObservable;
+use Px::Observable::ArrayObservable;
 
 sub observable_from_sub(&) {
     return Px::Observable::CallableObservable->new(shift);
+}
+
+sub observable_from_list(@) {
+    return Px::Observable::ArrayObservable->new(@_);
 }
 
 sub px_subscribe(&$) {
