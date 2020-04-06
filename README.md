@@ -53,3 +53,26 @@ yield => 3
 subscribe <= 31
 === generate: done ===
 ```
+
+This generates an observable from an anonymous subroutine.
+
+---
+
+Try another one, which makes an observable from a list:
+
+```perl
+use Px::Helpers qw(observable_from_list);
+
+my $observable2 = observable_from_list 4, 5, 6, 1, 7, 8;
+_output($observable2);
+```
+
+You get:
+
+```
+subscribe <= 41
+subscribe <= 51
+subscribe <= 61
+subscribe <= 71
+subscribe <= 81
+```
